@@ -1,0 +1,62 @@
+*{
+    font-family: Verdana;
+}
+h1 {
+    color: #27aedb;
+    text-align: center;
+}
+
+.headerStyle{
+    width:100%;
+    
+}
+.navbar{
+    background-color: #3F1052;
+    color:#ffffff;
+    height:100px;
+}
+.teamDiv{
+    height:600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.teamDiv:hover{
+    cursor: pointer;
+}
+.TeamCardDiv{
+    padding:20px;
+    margin:20px;
+
+}
+.TeamCard{
+    text-align:center;
+    background-color: #3F1052;
+    color: #000000;
+    margin-top:10px;
+    color:#ffffff;
+    font-size:18px;
+}
+.imageDiv{
+    text-align: center;
+}
+.cardImage{
+    margin-top:10px;
+    width:50%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0  rgba(0,0,0,0.2);
+}
+.chartDiv{
+    padding: 10px;
+}
+.SelectteamText{
+    text-align: center;
+    font-size:40px;
+}
